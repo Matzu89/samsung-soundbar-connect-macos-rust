@@ -50,7 +50,7 @@ static NSString *const kAddressDash = @"CC-6E-A4-2F-91-22";
 
 Change both strings and the six address bytes in `refresh_handles`. The name match looks for `soundbar`, `k450`, `samsung`, or `k-series` on the Core Audio device. Adjust `name_is_soundbar` if your bar uses a different name.
 
-This was written for one 2015 Samsung bar (Bluetooth 2.1, CSR radio, A2DP 1.2). Other speakers that already show up in Sound settings do not need it.
+This was written for one 2015 Samsung HW-K450 (K-Series) bar (Bluetooth 2.1, CSR radio, A2DP 1.2). Other speakers that already show up in Sound settings do not need it.
 
 ## Why the normal Bluetooth button fails
 
