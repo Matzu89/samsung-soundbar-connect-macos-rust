@@ -1,0 +1,11 @@
+[package]
+name = "soundbar"
+version = "0.1.0"
+edition = "2021"
+description = "Verbind de Samsung Soundbar K450 als Bluetooth-luidspreker"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.9" }
+
+[build-dependencies]
+cc = "1"
